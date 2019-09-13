@@ -5,25 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#552A88">
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E91E63">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="20dp"
+        android:textStyle="bold"
         android:textColor="#fff"
-        android:textSize="43sp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="presented"></TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hitendratechnology!"
-        android:textSize="30dp"
-        android:textColor="#ffffff"
-        android:gravity="center"
-        android:layout_gravity="center"
-        />
+        android:text="Hitendra Technology"></TextView>
 
 </LinearLayout>
